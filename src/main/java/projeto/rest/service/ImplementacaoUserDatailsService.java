@@ -11,7 +11,7 @@ import projeto.rest.model.UsuarioLogin;
 import projeto.rest.repository.UsuarioRepository;
 
 @Service
-public class ImlementacaoUserDatailsService implements UserDetailsService {
+public class ImplementacaoUserDatailsService implements UserDetailsService {
 
 	@Autowired
 	private UsuarioRepository repository;
